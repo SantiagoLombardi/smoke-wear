@@ -1,3 +1,12 @@
+para poder desplegar las functions es necesario si o si, utilizar la subscripcion Blaze, que es Pay as you go, osea que cobra segun el uso, hasta entonces no se puede hacer el deploy, esto no lo vamos a poder usar en la prueba, en el proyecto en si va a ser necesario desde el principio.
+
+una vez subscripta la cuenta con el proyecto a blaze se puede hacer el deploy general o si ya estaba hecho con el resto de los servicios, se puede hacer un ´Firebase deploy --only "functions"´, de todas maneras es mejor hacer un deploy general para tener todo el proyecto actualizado.
+
+hay que ffijarse en los comentarios de /functions/index.js porque no va a dejar hacer el deploy sin antes verificar el hello world.
+
+
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
